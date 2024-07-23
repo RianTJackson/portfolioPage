@@ -1,0 +1,182 @@
+/* Over all style */
+body{
+    background-color: #d2ebff;
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0px;
+}
+
+.sectionL2{
+    text-decoration: underline;
+}
+
+.txtCnt{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 170%;
+}
+
+.title em{
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+.photo{
+    max-width: 40%;
+    height: auto;
+    border: 5px solid#404066;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.textMain{
+  font-size: 125%;
+  padding-left: 20px;
+  line-height: 120%;
+}
+
+.cent{
+  text-align: center;
+}
+/* Nav Bar Format */
+
+.menuList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404066;
+  }
+  
+.menuElement {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #2b2c41;
+    color: white;
+  }
+
+  .active {
+    background-color: #edcc6f;
+    color:#2b2c41;
+  }
+
+  .fRight{
+    float: right;
+  }
+
+  /* Two coloum layout */
+
+  .column1 {
+    float: left;
+    width: 45%;
+    padding: 1rem 1rem;
+
+  }
+  
+
+  .column2 {
+    float: right;
+    width: 45%;
+    padding: 1rem 1rem;
+
+  }
+  
+  /* Style for projects tab / nav bar */
+
+  .projUl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 144px;
+    background-color: #404066;
+  }
+
+  .projLi {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .menuBut{
+    border: none;
+    width: 100%;
+    height: auto;
+    background-color: #404066;
+    color: white;
+    padding: 15px;
+    font-size:15px;
+    font-weight: bold;
+  }
+
+  .menuBut:hover{
+    background: #edcc6f;
+    color:#2b2c41;
+  }
+
+  .menuDiv{
+    height: 86.5vh;
+    background-color: #404066;
+    float:left;
+  }
+
+  .clownDiv{
+    padding: 15px;
+    float:left;
+    width:90%;
+    display:none;
+  }
+
+  .liodenDiv{
+    padding: 15px;
+    float:left;
+    width:90%;
+    display:none;
+  }
+
+  .startDiv{
+    text-align: center;
+  }
+
+  .pageDiv{
+    padding: 15px;
+    float:left;
+    width:90%;
+    display:none;
+  }
+
+  .projDes{
+    float: left;
+    width: 50%;
+    font-size: medium;
+  }
+
+
+  .projImg{
+    float: right;
+    width:50%
+  }
+
+  .photoProj{
+    max-width: 55%;
+    height: auto;
+    border: 5px solid#404066;
+    border-radius: 5px;
+    float:inline-end
+
+}
+  
